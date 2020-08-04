@@ -1,0 +1,44 @@
+header {
+    background-color: #141414;
+    #navbar-brand {
+        justify-content: flex-start;
+        a {
+            display: block;
+        }
+        .logo {
+            height: 60px; 
+            background-color: transparent;
+        }
+    }
+    .home-banner {
+        height: 0; 
+        padding-bottom: 15%; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: top center; 
+        background-image: url(../images/home-banner.jpg);
+    }
+}
+
+#hero-section {
+    padding: 30px 100px; 
+    background-color: $theme-color-1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    blockquote {
+        font-size: 22px; 
+        line-height: 1.5rem;
+        color: #FFF;
+        p {
+            &:first-child {
+                padding-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+main {
+    h2 {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
